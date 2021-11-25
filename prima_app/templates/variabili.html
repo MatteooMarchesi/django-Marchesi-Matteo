@@ -1,8 +1,11 @@
 {% extends "base.html"%}
 
-{%block title%} {{block.super}} | Variabili %endblock title%
+{%block title%} {{block.super}} | Variabili {%endblock title%}
 
 {%block content%}
-<h1>Variabili</h1>
-<p>Lorem ipsum</p>
+<ol>
+    <li>{{var1}}</li>
+    <li>{{var2}}</li>
+    <li>{{var3}}</li>
+</ol>
 {%endblock content%}
